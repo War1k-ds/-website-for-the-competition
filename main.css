@@ -1,0 +1,173 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+.non-bureau-style {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400; /* Archivo Black уже жирный */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* Дополнительные свойства для большего сходства */
+    font-stretch: expanded;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+input[type='file'] {
+	max-width: 100%;
+}
+.container{
+	max-width: 1920px;
+}
+.header-background{
+	background: url(img/background.png);
+	width: 1905px;
+height: 957px;
+background-repeat: no-repeat;
+ background-position: center center;
+}
+.text-header ul li a{
+	font-family: var(--second-family);
+font-weight: 700;
+font-size: 30px;
+color: #414141;
+margin-right: 39px;
+
+}
+.text-header ul li a{
+	position: relative;
+	top: -85px;
+	left: 50px;
+	
+}
+.text-header ul {
+	display: flex;
+	margin-top: 115px;
+}
+.text-header{
+	border-radius: 50px;
+width: 1235px;
+height: 93px;
+background: #fff;
+margin-top: 82px;
+/* position: absolute; */
+
+}
+.header{
+	display: flex;
+}
+.logo{
+	margin-left: 88px;
+	margin-top: 38px;
+	margin-right: 292px;
+
+}
+.text h1{
+font-family: var(--font14);
+font-weight: 800;
+font-size: 51px;
+color: #fff;
+margin-top: -309px;
+margin-left: 1000px;
+}
+.p2{
+	font-family: var(--font14);
+font-weight: 800;
+font-size: 110px;
+color: #fff;
+
+margin-left: 809px;
+}
+.interesting h2{
+	margin-top: 354px;
+	font-family: var(--second-family);
+font-weight: 300;
+font-size: 80px;
+color: #414141;
+opacity: 0.8;
+margin-left: 168px;
+margin-bottom: 154px;
+}

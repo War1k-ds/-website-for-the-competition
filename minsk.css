@@ -124,33 +124,34 @@ margin-right: 71px;
 .header{
   display: flex;
 }
-.text h1{
-  font-family: var(--font-family);
+.museum-text h1{
+font-family: var(--font-family);
 font-weight: 300;
-font-size: 65px;
+font-size: 70px;
 color: #414141;
-margin-left: 498px;
-margin-bottom: 45px;
+margin-left: 262px;
+margin-bottom: 50px;
 }
-.text img{
-  margin-left: 320px;
-  margin-bottom: 200px;
+.museum-text img{
+margin-left: 479px;
+margin-bottom: 140px;
 }
-.map h2{
+.museum h2{
   font-family: var(--third-family);
-font-weight: 300;
-font-size: 60px;
+font-weight: 400;
+font-size: 55px;
 color: #414141;
-margin-left: 688px;
+margin-left: 254px;
+margin-bottom: 110px;
 }
-.game__sorting{
-  margin-left: 500px;
+.video{
+  margin-left: 360px;
+  margin-bottom: 180px;
 }
-.map-1{
-  margin-left: 500px;
-  margin-bottom: 100px;
- 
-}
+.footer{
+  background: #d9d9d9;
+  height: 200px;
+} 
 .map-text h2{
   font-family: var(--font-family);
 font-weight: 300;
@@ -160,7 +161,8 @@ margin-left: 757px;
 margin-top: 130px;
 margin-bottom: 50px;
 }
-.footer{
-  background: #d9d9d9;
-  height: 200px;
-} 
+.map-1{
+  margin-left: 500px;
+  margin-bottom: 140px;
+ 
+}

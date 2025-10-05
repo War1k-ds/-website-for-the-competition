@@ -144,3 +144,8 @@ font-size: 60px;
 color: #414141;
 margin-left: 686px;
 }
+
+.underlining a{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

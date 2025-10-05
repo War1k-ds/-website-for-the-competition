@@ -211,3 +211,7 @@ margin-bottom: 50px;
 .music audio{
   margin-left: 783px;
 }
+.underlining a{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

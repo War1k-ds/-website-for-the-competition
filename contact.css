@@ -124,48 +124,6 @@ margin-right: 71px;
 .header{
   display: flex;
 }
-.museum-text h1{
-font-family: var(--font-family);
-font-weight: 300;
-font-size: 70px;
-color: #414141;
-margin-left: 262px;
-margin-bottom: 50px;
-}
-.museum-text img{
-margin-left: 479px;
-margin-bottom: 140px;
-}
-.museum h2{
-  font-family: var(--third-family);
-font-weight: 400;
-font-size: 55px;
-color: #414141;
-margin-left: 254px;
-margin-bottom: 110px;
-}
-.video{
-  margin-left: 360px;
-  margin-bottom: 180px;
-}
-.footer{
-  background: #d9d9d9;
-  height: 200px;
-} 
-.map-text h2{
-  font-family: var(--font-family);
-font-weight: 300;
-font-size: 60px;
-color: #414141;
-margin-left: 757px;
-margin-top: 130px;
-margin-bottom: 50px;
-}
-.map-1{
-  margin-left: 500px;
-  margin-bottom: 140px;
- 
-}
 .underlining a{
   text-decoration: underline;
   text-underline-offset: 5px;

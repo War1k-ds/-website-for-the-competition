@@ -282,3 +282,9 @@ height: 154px;
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+.game__description {
+    display: none !important;
+}
+.game__topic {
+    display: none !important;
+}

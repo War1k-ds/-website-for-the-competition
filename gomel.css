@@ -168,3 +168,22 @@ margin-bottom: 50px;
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+.game__description {
+    display: none;
+}
+.game__topic {
+    display: none;
+}
+
+/* .text img {
+    margin-left: 525;
+    margin-bottom: 200px;
+    width: 871px;
+    height: 582px;
+} */
+ .game__description {
+    display: none !important;
+}
+.game__topic {
+    display: none !important;
+}

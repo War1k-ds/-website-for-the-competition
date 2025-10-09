@@ -223,18 +223,20 @@ background: #fff;
 
  
 
-    .swiper {
+    /* .swipermySwiper {
       width: 50%;
       height: 50%;
-    }
-
+	
+    } */
+/* 
     .swiper-slide {
       text-align: center;
       font-size: 18px;
-      display: flex;
+      
       justify-content: center;
       align-items: center;
-    }
+	  
+    } */
 
     .swiper-slide img {
       display: block;
@@ -244,30 +246,38 @@ background: #fff;
 
     }
    element.style {
-    width: 600px;
+  width: 0px;
+  
+}
+.swiper-wrapper{
+
+}
+.swiper.mySwiper.swiper-initialized.swiper-horizontal {
+    width: 1000px;
+	height: 404px;
+	
 }
 
-
 .swiper-slide p{
-	font-family: var(--font-family);
+font-family: var(--font-family);
 font-weight: 300;
-font-size: 24px;
+font-size: 20px;
 color: #000;
-width: 400px;
+
 margin-left: 42px;	
 }
 .swiper-slide img{
 	margin-top: 15px;
-	margin-left: 30px;
+	margin-left: 25px;
 	margin-bottom: 22px;
 	width: 428px;
 height: 234px;
 }
 .swiper-slide{
-	border: 1px solid #000;
+border: 1px solid #000;
 width: 489px;
 height: 404px;
-background: #fff;
+
 
 }
 .swiper{
@@ -287,4 +297,37 @@ height: 154px;
 }
 .game__topic {
     display: none !important;
+}
+
+
+.fraction{
+	
+}
+
+.button{
+  position: relative
+}
+.swiper-button-next{
+position: absolute;
+top: 220px;
+right: 400px;		
+
+
+
+
+}
+.swiper-button-prev{
+position: absolute;
+top: 220px;
+left: 400px;
+}
+.swiper-pagination{
+	top: 430px;
+	font-family: var(--third-family);
+font-weight: 400;
+font-size: 25px;
+color: #000;	
+}
+.swiper-slide img{
+	margin-left: 25px;
 }

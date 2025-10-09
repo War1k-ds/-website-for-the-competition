@@ -132,6 +132,19 @@ color: #414141;
 margin-left: 498px;
 margin-bottom: 45px;
 }
+
+.music h2{
+  font-family: var(--font-family);
+font-weight: 300;
+font-size: 60px;
+color: #414141;
+margin-top: 30px;
+margin-left: 653px;
+margin-bottom: 80px;
+}
+.music audio {
+    margin-left: 783px;
+}
 .text img{
   margin-left: 320px;
   margin-bottom: 200px;
@@ -186,4 +199,16 @@ margin-bottom: 50px;
 }
 .game__topic {
     display: none !important;
+}
+.music h2{
+  font-family: var(--font-family);
+font-weight: 300;
+font-size: 60px;
+color: #414141;
+margin-top: 30px;
+margin-left: 653px;
+margin-bottom: 80px;
+}
+.music audio {
+    margin-left: 783px;
 }

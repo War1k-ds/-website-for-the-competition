@@ -264,5 +264,45 @@ color: #414141;
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+.swiper-pagination{
+	
+	font-family: var(--third-family);
+font-weight: 400;
+font-size: 25px;
+color: #000;	
+}
+ .swiper-text-1 img{
+      margin-bottom: 26px;
+ }
+.swiper-text-2 p{
+  margin-top: -20px;
+}
 
+.button{
+  position: relative
+}
+.swiper-button-next{
+position: absolute;
+top: 676px;
+right: 890px;	
+color: #000;	
 
+}
+.swiper-button-prev{
+position: absolute;
+top: 676px;
+left: 890px;
+color: #000;
+}
+.swiper-pagination{
+  position: absolute;
+	top: 660px;
+	font-family: var(--third-family);
+font-weight: 400;
+font-size: 25px;
+color: #000;	
+}
+.footer{
+  background: #d9d9d9;
+  height: 200px;
+}

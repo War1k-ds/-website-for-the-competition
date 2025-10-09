@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <link rel="stylesheet" href="main.css">
   <title>Document</title>
@@ -47,6 +47,16 @@
     </div>
   </section>
   <section>
+  <div class="button">
+       <div class="swiper-button-next">
+
+     </div>
+     <div class="swiper-button-prev">
+      
+     </div>
+     <div class="swiper-pagination"></div>
+    </div>
+    
     <div class="container">
       <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -73,48 +83,47 @@
       </div>
       <div class="swiper-slide">
          <img src="/img/Rectangle 738.png" alt="">
-          <p>Над братской могилой сожжённых и расстрелянных в деревне Ола первоначально установили поклонный крест. Позже поступило предложение возвести более масштабный монумент, соразмерный свершившейся там трагедии. Его инициатором стал 
-            почётный гражданин Светлогорска, журналист, писатель, поэт Изяслав Григорьевич Котляров. </p>
+          <p>Над братской могилой сожжённых и расстрелянных в деревне Ола первоначально установили поклонный крест. Позже возвели  масштабный монумент, соразмерный свершившейся там трагедии.  </p>
       </div>
       <div class="swiper-slide">
          <img src="/img/image 2.png" alt="">
           <p>Повторила судьбу Хатыни. Деревня Ола была сожжена карателями 14 января 1944 года.
 Жертв больше, чем в Хатыни. Погибло 1758 человек, из них 950 — дети.
-Уничтожали не только жителей Олы. Сюда согнали людей из 13 соседних деревень. </p>
+ </p>
       </div>
       <div class="swiper-slide">
          <img src="/img/image 3.png" alt="">
           <p>Насыпан людьми: Курган не природный, а рукотворный. Его насыпали в 1968-1978 гг. жители Гродно и области, которые приносили сюда по горсти земли.
-Символическая земля: В основание Кургана была заложена земля с 24 мест боев и братских могил Гродненщины, что делает его общим памятником для всех павших в регионе. </p>
+ </p>
       </div>
       <div class="swiper-slide"> 
         <img src="/img/Rectangle 739.png" alt="">
           <p>В память о четырёх армиях: Мемориал посвящён воинам четырёх советских армий (3-й, 4-й, 49-й и 50-й), которые освобождали Гродненщину от немецко-фашистских захватчиков в 1944 году.
-Не только ВОВ: С 1990-х годов Курган Славы также стал памятником воинам-интернационалистам, погибшим в Афганистане, что добавило ему мемориальной значимости. </p>
+ </p>
             </div>
       <div class="swiper-slide">
          <img src="/img/image 4.png" alt="">
-          <p>ВУникальное здание: Современное здание (открыто в 2014 г.) построено в виде лучей салюта Победы. Каждый луч — это тематический зал.
-Главный символ: Ключевой элемент музея — зал «Победа» со стеклянным куполом, символизирующим разорвавшийся над Рейхстагом салют. </p>
+          <p> Современное здание (открыто в 2014 г.) построено в виде лучей салюта Победы. Каждый луч — это тематический зал.
+Главный символ: Ключевой элемент музея — зал «Победа» </p>
       </div>
       <div class="swiper-slide">
          <img src="/img/image 5.png" alt="">
           <p>Огромная коллекция: В фондах музея хранится более 145 000 уникальных экспонатов:
-Интерактивность: Это не просто музей с витринами. Здесь используются мультимедийные технологии, голограммы и инсталляции, создающие эффект присутствия. </p>
+ </p>
       </div>
       <div class="swiper-slide">
          <img src="/img/image 6.png" alt="">
           <p>Уникальная концепция: Это первый и пока единственный в Беларуси музей, который представляет военную историю целой области от каменного века до наших дней.
-Современные технологии: Музей известен своими интерактивными экспонатами. Здесь можно посидеть в кабине самолета Су-25, примерить экипировку десантника на тренажере и использовать 3D-инсталляции. </p>
+ </p>
       </div>
       <div class="swiper-slide">
          <img src="/img/image 7.png" alt="">
           <p>Посвящен не только ВОВ: В отличие от многих военных музеев, он охватывает все периоды: от древних битв с крестоносцами до службы современных воинов-интернационалистов. </p>
       </div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+    <!-- <div class="swiper-pagination"></div> -->
   </div>
     </div>
   </section>
@@ -128,16 +137,18 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
-  <script>
+ <script>
     var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 50,
       pagination: {
         el: ".swiper-pagination",
-        type: "fraction",
+       type: "fraction",  
       },
-      navigation: {
+       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-      },
+      }
     });
   </script>
 </body>

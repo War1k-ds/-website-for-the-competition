@@ -149,3 +149,20 @@ margin-left: 686px;
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+.footer{
+  background: #d9d9d9;
+  height: 200px;
+}
+.music h2{
+  font-family: var(--font-family);
+font-weight: 300;
+font-size: 60px;
+color: #414141;
+margin-top: 30px;
+margin-left: 653px;
+margin-bottom: 80px;
+}
+.music audio {
+    margin-left: 783px;
+    margin-bottom: 150px;
+}

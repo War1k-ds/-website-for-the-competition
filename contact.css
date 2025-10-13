@@ -334,3 +334,11 @@ input.input-at:focus {
   background: #d9d9d9;
   height: 200px;
 } 
+.text h1{
+  font-family: var(--font-family);
+font-weight: 300;
+font-size: 65px;
+color: #414141;
+margin-left: 481px;
+margin-bottom:100px;
+}

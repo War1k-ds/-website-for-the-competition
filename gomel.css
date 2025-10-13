@@ -155,6 +155,8 @@ font-weight: 300;
 font-size: 60px;
 color: #414141;
 margin-left: 688px;
+position: absolute;
+z-index: 9999 ;
 }
 .game__sorting{
   margin-left: 500px;
@@ -211,4 +213,16 @@ margin-bottom: 80px;
 }
 .music audio {
     margin-left: 783px;
+}
+.game__field.game__field--map {
+    top: -44px !important;
+}
+.text123{
+  position: relative;
+}
+.text123>.box{
+  position: absolute;
+  width: 100%;
+  height: 130px;
+  background-color: white;
 }
